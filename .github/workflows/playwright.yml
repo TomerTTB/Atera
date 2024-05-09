@@ -17,8 +17,10 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
+    - name: Config Dotenv
+      run: $env:ENV="test"
     - name: Run Playwright tests
-      run: npx npx playwright test tests --project=chromium
+      run: npx playwright test tests --project=chromium
     - uses: actions/upload-artifact@v4
       if: always()
       with:
