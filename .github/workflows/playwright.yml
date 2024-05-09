@@ -33,9 +33,10 @@ jobs:
       - name: Configure environment variables
         run: |
           touch .env
-          echo "ENV=test" >> .env
+          echo ENV=test >> .env
           cp .env.test .env
           source .env
+          cat .env
 
       - name: Config Dotenv
         run: ENV="test"
