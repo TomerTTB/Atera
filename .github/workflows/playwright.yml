@@ -35,9 +35,6 @@ jobs:
           touch .env
           echo ENV=test >> .env
           cat .env
-
-      - name: Config Dotenv
-        run: ENV="test"
       
       - name: Run Playwright tests
         run: npx playwright test tests --project=chromium
