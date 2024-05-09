@@ -1,6 +1,6 @@
 export { type Locator, type Page } from '@playwright/test';
 export { PageBase } from '../classes/base/pageBase';
-export { ElementBuilder } from '../classes/base/ElementBuilder';
+export { ElementBuilder } from '../classes/base/elementBuilder';
 
 //Handler Classes
 export { LoginHandler } from '../classes/loginHandler';
