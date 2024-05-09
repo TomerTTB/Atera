@@ -1,8 +1,28 @@
 {
   "cookies": [
     {
+      "name": "__cf_bm",
+      "value": "BQuYML8adAqTs3fc5580ybEhN_R6.S.YjPxLU3cb4.4-1715274885-1.0.1.1-BXrrNuu3lkVO.HOP58cd7zXVY5aRaFGnrjIzS4YwMRB1W9MFZxazJIid6IcZ6X3VbEVGxUV5SjC4TOYttJI5UQ",
+      "domain": ".atera.com",
+      "path": "/",
+      "expires": 1715276686.755095,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ASP.NET_SessionId",
+      "value": "2s0av1or1xgmza54i2mi3zjh",
+      "domain": "app.atera.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
       "name": "ARRAffinity",
-      "value": "1a1db42e64c24222c8d6c447e0028598d5fe62845b3b315c8b25f53a387e2abb",
+      "value": "96b8bb9847576c30e4f936f9bfe2a8353f6ed39f14564ca1b474de471a69c4fe",
       "domain": ".app.atera.com",
       "path": "/",
       "expires": -1,
@@ -12,7 +32,7 @@
     },
     {
       "name": "ARRAffinitySameSite",
-      "value": "1a1db42e64c24222c8d6c447e0028598d5fe62845b3b315c8b25f53a387e2abb",
+      "value": "96b8bb9847576c30e4f936f9bfe2a8353f6ed39f14564ca1b474de471a69c4fe",
       "domain": ".app.atera.com",
       "path": "/",
       "expires": -1,
@@ -21,75 +41,185 @@
       "sameSite": "None"
     },
     {
-      "name": "ASP.NET_SessionId",
-      "value": "yus4j1bmnrkdwov2aits3kfq",
-      "domain": "app.atera.com",
+      "name": "cf_clearance",
+      "value": "ixxILLymWV31GFLSdfn4hCxBjpS73N9urtUy64DSdpk-1715274888-1.0.1.1-GJnZdJEAQuCO.1R_TEnhV0tAH8cKipORkPrJPnXdOKWiAUcd0zvqsY.JcKsw_OXwL6jW20dZNUqAVYcHcnxw_w",
+      "domain": ".atera.com",
       "path": "/",
-      "expires": -1,
+      "expires": 1746810889.221892,
       "httpOnly": true,
-      "secure": false,
-      "sameSite": "Lax"
+      "secure": true,
+      "sameSite": "None"
     },
     {
       "name": "did",
-      "value": "s%3Av0%3Aaa792440-0df1-11ef-81c2-c975a4094daf%3A0a1c6e4705fb47828924f7d885902cbb8515cbb66e267df0bdd2106a0ea430e2.CQTneJ4d%2FA%2F9DFwOQ3RLbU8o9Y8t7XCaJTl7m%2Fo16wY",
+      "value": "s%3Av0%3Aa3bbc500-0e27-11ef-843b-d1c747fff905%3A0a1c6e4705fb47828924f7d885902cbb8515cbb66e267df0bdd2106a0ea430e2.J4wqTGmRsUXKN%2BDpPPQPquNTltA3IDrkUJgYKgRp7hA",
       "domain": "auth.atera.com",
       "path": "/",
-      "expires": 1746818967.661666,
+      "expires": 1746832495.239018,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "did_compat",
-      "value": "s%3Av0%3Aaa792440-0df1-11ef-81c2-c975a4094daf%3A0a1c6e4705fb47828924f7d885902cbb8515cbb66e267df0bdd2106a0ea430e2.CQTneJ4d%2FA%2F9DFwOQ3RLbU8o9Y8t7XCaJTl7m%2Fo16wY",
+      "value": "s%3Av0%3Aa3bbc500-0e27-11ef-843b-d1c747fff905%3A0a1c6e4705fb47828924f7d885902cbb8515cbb66e267df0bdd2106a0ea430e2.J4wqTGmRsUXKN%2BDpPPQPquNTltA3IDrkUJgYKgRp7hA",
       "domain": "auth.atera.com",
       "path": "/",
-      "expires": 1746818967.662464,
+      "expires": 1746832495.239357,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
     },
     {
-      "name": "cf_clearance",
-      "value": "LaTFBA.uFbvjf4snUlH7sSakZVlwEDYjx5yAEoitzBg-1715259833-1.0.1.1-rc1x3vtxKvpatG05Eta3XMrtf8jxYt9U.k4RsRSLEbWLdc8l77x1GpPGeguoHckrHNH9IXtJELlW5YgS8kJMXQ",
-      "domain": ".atera.com",
-      "path": "/",
-      "expires": 1746795834.326174,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "__cf_bm",
-      "value": "MnEhIpbXuP.64WiD1_T2VMNlF_WIvvFlPaFAIS1fNus-1715260707-1.0.1.1-plDo968iZkBjgg1ew9Hi66XwbxElQW9Wm_cigymCxyGSxuhh35Kk6Ax7iU3DSiudssTosyfvXWaHZR91X37xzw",
-      "domain": ".atera.com",
-      "path": "/",
-      "expires": 1715262508.582027,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
       "name": "auth0",
-      "value": "s%3AfE0iWpzwUcssLvJwTXiZC4mswket3vRZ.xaiMS%2FEBFr4ibvE9otukpKU7QC5D1lRfL830yD%2FHwCg",
+      "value": "s%3AJqleWdVTXqrJoor48DtVElwgIHdhiWRZ.eKobGcFqIArskw1HfHUt11O3fn8vd5owZdIdMpGRxAE",
       "domain": "auth.atera.com",
       "path": "/",
-      "expires": 1715520567.662331,
+      "expires": 1715534106.42203,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "auth0_compat",
-      "value": "s%3AfE0iWpzwUcssLvJwTXiZC4mswket3vRZ.xaiMS%2FEBFr4ibvE9otukpKU7QC5D1lRfL830yD%2FHwCg",
+      "value": "s%3AJqleWdVTXqrJoor48DtVElwgIHdhiWRZ.eKobGcFqIArskw1HfHUt11O3fn8vd5owZdIdMpGRxAE",
       "domain": "auth.atera.com",
       "path": "/",
-      "expires": 1715520567.662582,
+      "expires": 1715534106.422401,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
+    },
+    {
+      "name": "_legacy_auth0.HbcXZmOOYb5YTth9VEthKg9a056OQS8p.is.authenticated",
+      "value": "true",
+      "domain": "app.atera.com",
+      "path": "/",
+      "expires": 1715361306,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0.HbcXZmOOYb5YTth9VEthKg9a056OQS8p.is.authenticated",
+      "value": "true",
+      "domain": "app.atera.com",
+      "path": "/",
+      "expires": 1715361306,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.224813743.1715274907",
+      "domain": ".atera.com",
+      "path": "/",
+      "expires": 1723050907,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ai_user",
+      "value": "GZkzpOhwg4lq3NlDHOnuwy|2024-05-09T17:15:07.201Z",
+      "domain": "app.atera.com",
+      "path": "/",
+      "expires": 1746810907.202346,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ai_session",
+      "value": "PWEOssKA1rUHb6ceMdH4of|1715274907223|1715274907223",
+      "domain": "app.atera.com",
+      "path": "/",
+      "expires": 1715276707.22395,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1715275807.256335,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ajs_user_id",
+      "value": "003Q3000008fmTvIAI",
+      "domain": ".atera.com",
+      "path": "/",
+      "expires": 1746810910,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ajs_anonymous_id",
+      "value": "a4443c8b-3ca9-4c27-9e3d-896c4ae7432c",
+      "domain": ".atera.com",
+      "path": "/",
+      "expires": 1746810910,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
     }
   ],
-  "origins": []
+  "origins": [
+    {
+      "origin": "https://app.atera.com",
+      "localStorage": [
+        {
+          "name": "ngStorage-devicesBetaFilterState",
+          "value": "{\"sort\":\"AlertsPaused,CriticalAlertsCount,WarningAlertsCount,InformationAlertsCount\",\"sortByName\":\"d\",\"availability\":null,\"category\":null,\"customers\":null,\"departments\":null,\"folders\":null,\"deviceType\":null,\"snmpType\":null,\"alertSeverity\":null,\"status\":null,\"search\":null,\"alerts_critical\":false,\"alerts_warning\":false,\"alerts_info\":false,\"advancedAndCustomFilters\":null}"
+        },
+        {
+          "name": "apc_user_id",
+          "value": "003Q3000008fmTvIAI"
+        },
+        {
+          "name": "ajs_user_id",
+          "value": "\"003Q3000008fmTvIAI\""
+        },
+        {
+          "name": "ngStorage-devicesGridState",
+          "value": "{\"columnState\":[{\"colId\":\"selection\",\"width\":70,\"hide\":false,\"pinned\":\"left\",\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"logo\",\"width\":72,\"hide\":true,\"pinned\":\"left\",\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"details\",\"width\":480,\"hide\":true,\"pinned\":\"left\",\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"deviceName\",\"width\":150,\"hide\":false,\"pinned\":\"left\",\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"lastLogin\",\"width\":112,\"hide\":false,\"pinned\":null,\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"availability\",\"width\":64,\"hide\":false,\"pinned\":null,\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"deviceType\",\"width\":64,\"hide\":false,\"pinned\":null,\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"customers\",\"width\":64,\"hide\":false,\"pinned\":null,\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"folder\",\"width\":64,\"hide\":false,\"pinned\":null,\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"alerts\",\"width\":120,\"hide\":false,\"pinned\":null,\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"availablePatches\",\"width\":84,\"hide\":false,\"pinned\":null,\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"pendingReboot\",\"width\":90,\"hide\":false,\"pinned\":null,\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"remoteAccessActions\",\"width\":155,\"hide\":false,\"pinned\":null,\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"manageActions\",\"width\":130,\"hide\":false,\"pinned\":null,\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"ip\",\"width\":100,\"hide\":true,\"pinned\":null,\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null},{\"colId\":\"lastRebootTime\",\"width\":100,\"hide\":true,\"pinned\":null,\"sort\":null,\"sortIndex\":null,\"aggFunc\":null,\"rowGroup\":false,\"rowGroupIndex\":null,\"pivot\":false,\"pivotIndex\":null,\"flex\":null}],\"isSlimView\":true}"
+        },
+        {
+          "name": "absId",
+          "value": "11a8dfbf-ebfe-4582-9f40-042c01830f01"
+        },
+        {
+          "name": "ajs_user_traits",
+          "value": "{\"accountID\":\"001Q300000E3edZIAR\",\"fullUrl\":\"https://app.atera.com/new/devices\",\"plan\":\"Trial\",\"userID\":\"003Q3000008fmTvIAI\",\"email\":\"atera-automation-exercise@atera.com\",\"isITDepartment\":false,\"order_id\":\"003Q3000008fmTvIAI\",\"deviceType\":\"desktop\",\"firstName\":\"My\",\"lastName\":\"Company\",\"accountName\":\"My Company\",\"acronisAccountStatus\":\"non-active\",\"webrootAccountStatus\":\"non-active\",\"workFromHomeActivated\":\"non-active\",\"bitdefenderAccountStatus\":\"non-active\",\"networkDiscoveryAccountStatus\":\"trial\",\"lastBrowserLocale\":\"en-US\",\"showOnboarding\":true,\"recentLoginDate\":\"2024-05-09T17:15:10.284Z\",\"userRole\":\"Non-admin\",\"numberOfTechnicians\":2}"
+        },
+        {
+          "name": "X-Atera-JWT",
+          "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImdqeGhETlRxWHZzOXdCZUNkVTNLeiJ9.eyJodHRwczovL2F0ZXJhLmNvbS9hcHBfbWV0YWRhdGEiOnsiQWNjb3VudElEIjoiMDAxUTMwMDAwMEUzZWRaSUFSIiwiQWNjb3VudE5hbWUiOiJNeSBDb21wYW55IiwiQWNjb3VudFByZWZlcnJlZExhbmdhdWdlIjoiZW4iLCJBY2NvdW50UmFuayI6Ik5vbmUiLCJBY2NvdW50U2VjdXJpdHlMaW1pdGF0aW9uIjoiVHJ1ZSIsIkFjcm9uaXNBY3RpdmF0ZWQiOiJGYWxzZSIsIkFjdGl2ZVBsYW4iOiJUcmlhbCIsIkFkbWluUGFnZUxvYWRTb3VyY2UiOiJMb2dpbiIsIkFnZW50SUQiOiIyIiwiQXBwcm92ZWRQb2xpY3kiOiJGYWxzZSIsIkJsdWVzbmFwQ3VycmVuY3kiOiJVU0QiLCJDbGFpbXNOZXciOiJINHNJQUFBQUFBQUVBTzFaVFUvRE1BejFUMEZ3Ulh6ZXVKV0JCQklUYUNzSWhEaXdOblJBYWFzdFl5REVmK2Y1ZFdORDRvQ0FaZ2haVWRyYWNlejRPWFc5N0ZKZVpGa09aWWcyRWljRFVEdm9SM0lzTFlsd1g4TDFWR0k1QUtjRHlWZ3VNTDZLZmd6cFc4blFDN21XL0p0YVRpQmRTc1ZaSHJvY2RPanNGM25sZUJjYWUzSUhmb0p4SFNuQXlkRjBOSlpuenEzdFhaTmZ5bGoyd012UlBYb01yWW5ja3hwT3JKNVJkdlErODRiMGtQVEg4WThXK3REaFFlL0lPdHFZYlExOUc5Y1NIbVRnYnNrRzJpYWV6cVVOMzd1dzNvZUdCK2hjZ1ExUDNBcklMdFBIL3htQk52VmxoditDOE8rQVZ4RVREOHNKbXVQcVBzZGZNUmtaK2o5RXY0ZjVPbEw3ZDRqckRYRlIzMVYzQ1k3dC95WWprR0FkQldZNHRJZ3lYOGsrdHZ0L0cvdFRya3BYcEdzc3dFa04rd2F4VC9IMHlKM3VaQi9VTFRYV3ZocnFUYUd1UG1yRzcxSjZ4UFY1U05qM05oeit1cGFNMlQ3Rkc2QjB3bXd6WC85WUZNSkZJWi9vdEVvL0hPb3RWcFllVkdLN1BTRHVhaU9DcElkMnEvRVhFWUVUb3E2K1IrQ2xzT21CUndZWmIxRUlGZ1gxVzlkWFdkNFBqSHNCdW9LRTR6M24yK0FzQmdGakVNUHJBYlgxb1Q5SERqTDBRNkkvTzkzWmx5ZEtGY1RZcXFCRnhLQzJrV0tlVmFMTng2Q2NuRGk3TDV3NFdQYjVIZFMxdnE5UCtKM3M4aGZYUFdRck8vTUpoSDgxT1ZjZUU0MFUvczh5MGNEMmZxUFlEK2hueVJwekhuZmI3ODFoUHFTV1IxNDduK0JmV0FRYWo4QXpQVlJ2Vy9CNmlybDlhWnZGM2MvVmxiV1AwN08yU0diL0xMYUpSdTlQWnY4cmVRTkJJVk1TWUNVQUFBPT0iLCJDb250YWN0QWxsb3dlZEN1c3RvbWVycyI6Ikg0c0lBQUFBQUFBRUFJdG1pR1VBQUtaMFhUSUVBQUFBIiwiQ29udGFjdERpc3BsYXlMYW5ndWFnZSI6ImVuIiwiQ29udGFjdEVtYWlsIjoiYXRlcmEtYXV0b21hdGlvbi1leGVyY2lzZUBhdGVyYS5jb20iLCJDb250YWN0SUQiOiIwMDNRMzAwMDAwOGZtVHZJQUkiLCJDb250YWN0TE5hbWUiOiJFeGVyY2lzZSIsIkNvbnRhY3ROYW1lIjoiQXV0b21hdGlvbiIsIkNvdW50cnkiOiJJc3JhZWwiLCJDcmVhdGVkT25EYXRlIjoiNC8yNy8yMDI0IDQ6MjE6MTYgUE0iLCJDdXJyZW5jeSI6IuKCqiIsIkRhdGFiYXNlSWQiOiIyMiIsIkRhdGFiYXNlTmFtZSI6IkFJT1BsYXRmb3JtIiwiRGF0YWJhc2VTY2hlbWFOYW1lIjoiMDAxUTMwMDAwMEUzZWRaSUFSIiwiRGlzYWJsZVNUUmVtb3RlIjoiRmFsc2UiLCJFbmRVc2Vyc1JlbW90ZUFjY2Vzc0FjdGl2YXRlZCI6IkZhbHNlIiwiRW52aXJvbm1lbnRVcmwiOiIiLCJGZWF0dXJlTGljZW5zZXMiOiJINHNJQUFBQUFBQUVBS1dTM1U2RFFCQ0Z6N053YlEwVUxLWjNLRzNTcE5aVXViSEdDeXhvcUVnVGhKcHFmSGZQRG1DM2lyV04yZXd3ek0rM1p3ZHU4UTRESTBTMGZWaHd1VTJjY2gweGNvbDdMQkJqanVLckprT0psRXZsUFdibVdES1NhUlVHQ1NZNVU5amlWV3ZBdDVnVk05WjV1R0tWSWd3WkM5bGJJcWMzb2YvTVowV1owQ3Z3U242T0ovaEk4Q0tuclJqUHNVWUhRU3RGMTJFeGF1Tk4wK0dTc2tBUE4xVGhVV01iWVNnNkV0NXl2YWVXaWpKbGZ5aXpTTGlyWGhQSDNDcDdKc1NVTnNNajMwSXk0cnFtbWFicVhOWFJndVNTdnNyNW9xL0poL0pja3VPTEgydHpWM2Z1YURhUVdGK3pSazFzN2xCOXZXMnRJOFlDbnArUW4vNVFzOGxjTXg3eXJmaW1wRXRPRjQ1b09LbHRRRFdPbkdLSmRlVTB1OWF6WVE1NGRyU0QxeFByL01FYmt6Wm5meVpUL2szbklSUGJKcmFwUElSMkxuOWExYjNydHZ0TmJ5eC9VNEVMZnMrSU9oKzQvOHY5d0IwK0FZYjl3SjBnQkFBQSIsIkdyb3VwVmFyaWFudCI6IkIiLCJJc0FkbWluIjoiRmFsc2UiLCJJc0lURGVwYXJ0bWVudCI6IkZhbHNlIiwiSXRpbENvbXBsaWFuY2UiOiJUcnVlIiwiTGVnYWN5VXNlciI6IkZhbHNlIiwiTG9naW5GYWlsZWRDb250YWN0U3VwcG9ydCI6ImZhbHNlIiwiTWFpbFNlY3VyaXR5QWN0aXZhdGVkIjoiRmFsc2UiLCJPbmxpbmVCYWNrdXBBY3RpdmF0ZWQiOiJGYWxzZSIsIlJlcXVlc3RJcCI6IjE4NS4zLjE0NS4yNTQiLCJTaG93U3dpdGNoVG9OZXdVSVRvZ2dsZSI6IkZhbHNlIiwiU3dpdGNoRW52aXJvbm1lbnQiOiJGYWxzZSIsIlRWUGxhbiI6IkJ1c2luZXNzUHJlbWl1bSIsIlRWU3BlY2lmaWNWZXJzaW9uIjoiMCIsIlRvdHBBdXRoU3RhdHVzIjoiMCIsIlRyaWFsRW5kRGF0ZSI6IjYvNC8yMDI0IDI6MDE6MDQgUE0iLCJVc2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTI0LjAuNjM2Ny4yOSBTYWZhcmkvNTM3LjM2IiwiVXNpbmdOZXdVSSI6IlRydWUiLCJWYWxpZENvbnRhY3QiOiJ0cnVlIiwiV2ViUm9vdEFjdGl2YXRlZCI6IkRlYWN0aXZhdGVkIiwiaXNBdGVyYVN1cHBvcnRVc2VyIjoiRmFsc2UifSwiZ2l2ZW5fbmFtZSI6IkF1dG9tYXRpb24iLCJmYW1pbHlfbmFtZSI6IkV4ZXJjaXNlIiwibmlja25hbWUiOiJhdGVyYS1hdXRvbWF0aW9uLWV4ZXJjaXNlIiwibmFtZSI6ImF0ZXJhLWF1dG9tYXRpb24tZXhlcmNpc2VAYXRlcmEuY29tIiwicGljdHVyZSI6Imh0dHBzOi8vcy5ncmF2YXRhci5jb20vYXZhdGFyL2IwOWMzM2I0MDQ1ZmRjM2RmMzhlZDBkNTNmODFjYmM0P3M9NDgwJnI9cGcmZD1odHRwcyUzQSUyRiUyRmNkbi5hdXRoMC5jb20lMkZhdmF0YXJzJTJGYXQucG5nIiwidXBkYXRlZF9hdCI6IjIwMjQtMDUtMDlUMTc6MTQ6NTQuMDc2WiIsImVtYWlsIjoiYXRlcmEtYXV0b21hdGlvbi1leGVyY2lzZUBhdGVyYS5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOi8vYXV0aC5hdGVyYS5jb20vIiwiYXVkIjoiSGJjWFptT09ZYjVZVHRoOVZFdGhLZzlhMDU2T1FTOHAiLCJpYXQiOjE3MTUyNzQ4OTksImV4cCI6MTcxNTM2MTI5OSwic3ViIjoiYXV0aDB8MDAzUTMwMDAwMDhmbVR2SUFJIiwic2lkIjoiZnFjc2FtOXdoRktVa3EyV1d3ZXJXdmYzSkpqRm1WWWEiLCJub25jZSI6IlUwOU5hemhpYmxOUE1tNVRaSEJ3T1ZOZlVHRlFPVTlTT1VWMFVsRlRTMWhVUVVNMlZWbEJOamt4Tnc9PSJ9.iHabv5fmPc31LgiDDnjvMIe362tTZiNLM1TXPz0NjsplXafme0FGZrxubYtZd3VdLL_zH24-kOIoB1qjDUWQS_9MyILjiSnxM-AP5Y2cThL1pxAxiWTmf27oAYaE_NdYxa7aOc25WpjWFBiU_eNPRu3GZvpkxxxuWMnf7LNbpO29ruHXC0-xELyXJPa0DR-TBiQh-yAnZYyYdFqj7yGx31Yfo-i4hOI2aj6fDFxqA4J__84sSZLGsB76GJPgTDVVb34iVouTzxOBKt9DSdMzcLaMRSBWXyjCcUSx2z6pps3OKCCuSfohHLyWin_XloqVk8o6OuOnPP97X6PdEXx4cQ"
+        },
+        {
+          "name": "ajs_anonymous_id",
+          "value": "\"a4443c8b-3ca9-4c27-9e3d-896c4ae7432c\""
+        },
+        {
+          "name": "IsAuth0JWT",
+          "value": "true"
+        },
+        {
+          "name": "apc_session",
+          "value": "{\"id\":\"ad3749b1-340e-4fef-a77b-93d50613a94f\",\"timestamp\":1715274911444,\"duration\":1800000,\"userId\":\"003Q3000008fmTvIAI\"}"
+        },
+        {
+          "name": "apc_local_id",
+          "value": "acbeb194-472d-4e64-9d0f-ade4b797c4d6"
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,5 @@
 import { test, expect } from '../../fixtures/page-fixtures';
+import { TicketStatusPage } from '../../utils/imports';
 const testConfig = require('../../config/testConfig.json')
 
 test.describe('Assert open tickets', () => {

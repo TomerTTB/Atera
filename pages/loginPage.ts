@@ -17,11 +17,11 @@ export class LoginPage extends PageBase {
 
     //Methods
     async login() {
-        this.page.goto(process.env.URL || '');
+        this.page.goto(<string>process.env.URL);
         await this.page.waitForURL(/^https:\/\/auth\.atera\.com\/.*/);
         await LoginHandler.performLogin(this.page, this.loginInputElementsBeforeEmail, process.env.EMAIL);
         await LoginHandler.performLogin(this.page, this.loginInputElementsAfterEmail, process.env.PASSWORD);
-        await this.page.context().storageState({ path: process.env.AUTH });
         await expect(this.page.getByRole('heading', { name: 'Devices' })).toBeVisible();
+        await this.page.context().storageState({ path: process.env.LOGINSTATEPATH });
     }
 };

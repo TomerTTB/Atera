@@ -16,6 +16,7 @@ export class SidebarPage extends PageBase {
 
     //Methods
     async navigateToMenuItem(testConfig) {
+        await this.page.goto('https://app.atera.com/new/devices');
         const { menuNavigation } = testConfig;
         const menuItem = menuNavigation[0].value;
         const index = sideBarElements.findIndex((elem) => elem['id'] === menuItem);

@@ -20,3 +20,6 @@ export { sideBarElements } from '../pagesData/sideBarData/sideBarElements';
 //TicketStatusPage
 export { TicketStatusPage } from '../pages/Dashboard/ticketStatusPage';
 export { dashboardTicketStatusElements } from '../pagesData/dashboard/dashboardTicketStatusElements'
+
+//ApplicationPage
+export { ApplicationPage } from '../pages/applicationPage';
