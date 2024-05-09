@@ -1,4 +1,4 @@
-export const loginPageBeforeEmailElements = [
+export const loginPageBeforeSubmitEmailElements = [
     {
         functionType: 'getByLabel',
         text: 'Email address*'
@@ -6,7 +6,7 @@ export const loginPageBeforeEmailElements = [
 ];
 
 // Elements to check or interact with after entering the email
-export const loginPageAfterEmailElements = [
+export const loginPageAfterSubmitEmailElements = [
     {
         functionType: 'getByText',
         text: 'Enter your password for Atera'

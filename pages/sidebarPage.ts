@@ -1,8 +1,10 @@
 import { expect } from '@playwright/test';
+import uiEndPoints from '../utils/uiEndPoints.ts';
 import {
     Locator, Page, PageBase, ElementBuilder, sideBarElements,
     ElementClicker
 } from '../utils/imports.ts';
+
 
 export class SidebarPage extends PageBase {
     //Variables 
@@ -16,7 +18,7 @@ export class SidebarPage extends PageBase {
 
     //Methods
     async navigateToMenuItem(testConfig) {
-        await this.page.goto('https://app.atera.com/new/devices');
+        await this.page.goto(`${process.env.URL}${uiEndPoints.devices}`);
         const { menuNavigation } = testConfig;
         const menuItem = menuNavigation[0].value;
         const index = sideBarElements.findIndex((elem) => elem['id'] === menuItem);
