@@ -17,6 +17,8 @@ export class LoginPage extends PageBase {
 
     //Methods
     async login() {
+        console.log(process.env.URL);
+        console.log(<string>process.env.URL);
         this.page.goto(<string>process.env.URL);
         await this.page.waitForURL(/^https:\/\/auth\.atera\.com\/.*/);
         await LoginHandler.performLogin(this.page, this.loginInputElementsBeforeEmail, process.env.EMAIL);
