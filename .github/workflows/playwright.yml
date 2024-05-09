@@ -36,6 +36,9 @@ jobs:
           cp .env.test .env
           source .env
 
+      - name: Config Dotenv
+        run: ENV="test"
+      
       - name: Run Playwright tests
         run: npx playwright test tests --project=chromium
 
