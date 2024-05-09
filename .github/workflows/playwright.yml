@@ -1,31 +1,48 @@
 name: Playwright Tests
+
 on:
   push:
-    branches: [ main, master ]
+    branches: 
+      - main
+      - master
   pull_request:
-    branches: [ main, master ]
+    branches: 
+      - main
+      - master
+
 jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: lts/*
-    - name: Install dependencies
-      run: npm ci
-    - name: npm Install dependencies
-      run: npm install
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
-    - name: Config Dotenv
-      run: ENV="test"
-    - name: Run Playwright tests
-      run: npx playwright test tests --project=chromium
-    - uses: actions/upload-artifact@v4
-      if: always()
-      with:
-        name: playwright-report
-        path: playwright-report/
-        retention-days: 30
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Configure environment variables
+        run: |
+          touch .env
+          echo ENV=test >> .env
+          cat .env
+      
+      - name: Run Playwright tests
+        run: npx playwright test tests --project=chromium
+
+      - name: Upload Playwright report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 30
