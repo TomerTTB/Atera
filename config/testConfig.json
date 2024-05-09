@@ -1,4 +1,10 @@
 {
+    "menuNavigation": [
+        {
+            "name": "dashboard",
+            "value": "#menu-item-1"
+        }
+    ],
     "status": [
         {
             "name": "ticketStatus",
@@ -9,7 +15,7 @@
                 },
                 {
                     "name": "Pending",
-                    "value": "1"
+                    "value": "0"
                 }
             ]
         }

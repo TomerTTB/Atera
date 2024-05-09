@@ -1,9 +1,9 @@
 import { test as baseTest } from '@playwright/test';
-import { LoginPage, SideBarPage, TicketStatusPage } from '../utils/imports.ts';
+import { LoginPage, SidebarPage, TicketStatusPage } from '../utils/imports.ts';
 
 type MyFixtures = {
     loginPage: LoginPage;
-    sideBarPage: SideBarPage;
+    sidebarPage: SidebarPage;
     ticketStatusPage: TicketStatusPage;
 }
 
@@ -11,8 +11,8 @@ export const test = baseTest.extend<MyFixtures>({
     loginPage: async ({ page }, use) => {
         await use(new LoginPage(page));
     },
-    sideBarPage: async ({ page }, use) => {
-        await use(new SideBarPage(page));
+    sidebarPage: async ({ page }, use) => {
+        await use(new SidebarPage(page));
     },
     ticketStatusPage: async ({ page }, use) => {
         await use(new TicketStatusPage(page));

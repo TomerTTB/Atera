@@ -14,7 +14,7 @@ export { loginPageAfterEmailElements } from '../pagesData/loginPageData/loginPag
 export { loginPageElementsClick } from '../pagesData/loginPageData/loginPageElementsClick';
 
 //SideBarPage
-export { SidebarPage } from '../pages/sideBarPage';
+export { SidebarPage } from '../pages/sidebarPage';
 export { sideBarElements } from '../pagesData/sideBarData/sideBarElements';
 
 //TicketStatusPage

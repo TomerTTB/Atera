@@ -1,14 +1,11 @@
-import { test } from '../../fixtures/page-fixtures';
-
-// test.beforeAll(async ({ loginPage }) => {
-//   await loginPage.login();
-// });
+import { test, expect } from '../../fixtures/page-fixtures';
+const testConfig = require('../../config/testConfig.json')
 
 test.describe('Assert open tickets', () => {
-  test('sideBar --> Assert open tickets', async ({ loginPage, sideBarPage, ticketStatusPage }) => {
+  test('sideBar --> Assert open tickets', async ({ page, loginPage, sidebarPage, ticketStatusPage }) => {
     test.slow();
     await loginPage.login();
-    await sideBarPage.navigateToMenuItem('#menu-item-1');
+    await sidebarPage.navigateToMenuItem(testConfig);
     await ticketStatusPage.validateStatus();
   });
 });
