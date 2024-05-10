@@ -1,4 +1,4 @@
-<pre>
+
 **Project Definition:**
 This work assignment was given during an interview, to develop a program for automated end-to-end testing.
 
@@ -34,7 +34,6 @@ Dotenv setup is necessary:
 $env:ENV="test"
 ```
 
-
 **Project Structure:**
 
 **Environment control:**
@@ -57,8 +56,17 @@ Run all tests using all browsers with headed browser
 ```bash npx playwright test tests --headed```
 
 
+**Test reporter and trace:**
+HTML reporter will automatically open if the test fails.
+To launch the reporter manually or for a successful run:
+```npx playwright show-report```
 
-</pre>
+The project Trace is on and will log for success and fail runs.
+
+
+
+
+
 
 
 
