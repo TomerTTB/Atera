@@ -42,11 +42,7 @@ $env:ENV="test"
 **Environment control:**
 The project environment control is a dotenv based, to change an environment use:
 
-<br>
-
 ```bash$env:ENV="test"```
-
-<br>
 
 Change "test" to the needed environment.
 * The .env file holds general environmental variables.
@@ -85,6 +81,13 @@ The project Trace is on and will log for success and fail runs.
 <br> 
   
 **Project Structure:**
+
+**TestConfig**
+The testConfig file under config folder is the only endpoint to be used by the user.
+1) Menu navigation by populating name/value
+2) Ticket status can add 1 or more statuses and a number to be assessed.
+
+
 
 
 
