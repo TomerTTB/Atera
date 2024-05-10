@@ -30,6 +30,7 @@ $env:ENV="test"
 
 **Environment control:**
 The project environment control is a dotenv based, to change an environment use:
+
 ```bash$env:ENV="test"```
 Change "test" to the needed environment.
 * The .env file holds general environmental variables.
