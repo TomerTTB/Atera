@@ -163,7 +163,8 @@ Each page is represented as a page object model design pattern, facilitating bet
 
 <br>
 
-**What was difficult / What I would change / notes**
+**What was difficult / What I would change / notes:**
+
 There were a few points that were more difficult to overcome:
 1) Navigation to the login page, before the 302 redirect, the playwright finds an element on the page, that causes the test to stop at this point with a blank screen.
    I had to remove 'await' and keep it alive until validation of a new URL endpoint.
