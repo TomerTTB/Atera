@@ -4,6 +4,9 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+env:
+  ENV: "TEST"
+  URL: http://google.com
 jobs:
   test:
     timeout-minutes: 60
