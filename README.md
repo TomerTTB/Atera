@@ -1,4 +1,4 @@
-**Project Definition:**
+'**Project Definition:**
 This work assignment was given during an interview, to develop a program for automated end-to-end testing.
 
 <br>
@@ -12,7 +12,7 @@ Assertion: Writing assertions to verify statuses.
 <br> 
 
 **GitHub Actions:**
-The project holds a yml file and supports remote running using GitHub Actions.
+The project holds a '.yml' file and supports remote running using GitHub Actions.
 A customer with no dev environment can run the tests.
 
 <br> 
@@ -59,7 +59,7 @@ npm run test_chrome
 ``` 
 
 Other running options:
-Run all tests using all browsers (Controlled under playwright.config)
+Run all tests using all browsers (Controlled from playwright.config)
 
 ```bash 
 npx playwright test tests
@@ -112,8 +112,11 @@ The baseTest is extended with custom fixtures, which are instances of the pages.
 
 <br>
 
-**Authentication state:**
+**Authentication state and auth folder:**
 Playwright provides a storage method that can be used to retrieve the storage state from an authenticated context and then create new contexts with that state.
+This means that after a successful login, the authentication details are saved and stored in 'loginAuth.json' under the auth folder.
+<br>
+Once saved the tests in the project can now navigate directly to the UI endpoints without the need to pass through the login page.
 
 <br>
 
