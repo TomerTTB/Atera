@@ -50,14 +50,23 @@ Change "test" to the needed environment.
 
 **Running Tests:**
 The project is set with a script to run all spec files using Chrome browser.
+
 ```bash npm run test_chrome``` 
 
 Other running options:
 Run all tests using all browsers (Controlled under playwright.config)
+
 ```bash npx playwright test tests```
 
-Run all tests using all browsers with headed browser 
+Run all tests using all browsers with headed browser:
+
 ```bash npx playwright test tests --headed```
+
+Use Debug mode:
+```bash--debug```
+
+Use Interactive ui mode:
+```bash--ui```
 
 <br> 
 
