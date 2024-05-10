@@ -143,7 +143,7 @@ All the tests in the project can now navigate directly to the UI endpoints witho
 
 **tests folder:**
 
-The run spec (test) files are located under the tests folder.
+Playwright calls test files as 'spec', the spec files are located under the tests folder. with the convention of 'xxx.spec.ts'
 
 <br>
 
