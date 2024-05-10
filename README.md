@@ -137,8 +137,9 @@ Each page is represented as a page object model design pattern, facilitating bet
 <br>
 
 **classes folder:** 
-1) pageBase: Creates the basic page playwright object to be used by most classes.
+1) pageBase: Creates the basic page playwright object, all pom classes will extend this base class.
 2) elementBuilder: Builds an array from the page elements for verification.
    The 'elementBuilder' purpose is to be a generic array builder that can take any amount of elements from the same kind for example, all the input text elements, or all text elements, and
-   make them ready to be used within the POM's.
+   make them ready to be used within the pom.
+3) In general the classes such as 'elementCliker' should be designed to be as generic as possible so they can be used by all pom.
    
