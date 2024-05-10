@@ -1,6 +1,8 @@
 **Project Definition:**
 This work assignment was given during an interview, to develop a program for automated end-to-end testing.
-<br> 
+
+<br>
+
 **Project Scope:**
 The project involves setting up an automation infrastructure foundation. This includes tests to perform the following actions:
 Login: Automating the login process to the application.
