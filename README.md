@@ -167,6 +167,7 @@ Each page is represented as a page object model design pattern, facilitating bet
 1) It's a best practice to add the '.env' files to the git ignore list, in the case of this project '.env.test' has been added, yet it does not contain the password.
 2) When run on CI, it uses a separate .env file '.env.ci', this file also does not contain the password, and the password for the CI is stored under environment secret variables.
 3) After login the 'loginAuth.json' file contains cookies and the JWT, on CI the file will always stay empty (only with {} to indicate a json file). locally the file will keep the date after the first run.
+4) 'loginAuth.json' file should be in the git ignore list.
 
 <br>
 
