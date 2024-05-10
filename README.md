@@ -184,5 +184,3 @@ Note - Fixtures can run from the 'global-setup' or the hooks, but it requires co
 As I tried to place myself in a role of infrastructure, I found out it can be a bottomless pit :), there is no end to how many more capabilities you can add.
 I think it's super important to collect the correct requirements from the customers and translate them to actionable tasks only what's necessary.
 All in all, it was a nice project to work on, I pushed myself hard on it, and it should accurately reflect where I am in terms of hands-on coding experience. 
-   
-   
