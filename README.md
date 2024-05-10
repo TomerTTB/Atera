@@ -40,7 +40,7 @@ $env:ENV="test"
 
 
 **Environment control:**
-The project environment control is a dotenv based, to change an environment use:
+The project environment control is a dotenv based, to set an environment use:
 
 ```bash
 $env:ENV="test"
@@ -51,7 +51,7 @@ Change "test" to the needed environment.
 
 <br> 
 
-**Password encapsulation**
+**Password encapsulation:**
 "MY" password should be added locally, it can be done in two different ways:
 1) Add it manually to the '.env.test' under env folder.
 2) Use command line:
