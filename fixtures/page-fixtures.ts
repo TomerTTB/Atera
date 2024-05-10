@@ -1,5 +1,5 @@
 import { test as baseTest } from '@playwright/test';
-import { LoginPage, SidebarPage, TicketStatusPage } from '../utils/imports.ts';
+import { LoginPage, SidebarPage, TicketStatusPage, Hooks } from '../utils/imports.ts';
 
 type MyFixtures = {
     loginPage: LoginPage;

@@ -10,14 +10,14 @@ export { StatusValidator } from '../classes/statusValidator';
 
 //loginPage
 export { LoginPage } from '../pages/loginPage';
-export { loginPageBeforeSubmitEmailElements } from '../pagesData/loginPageData/loginPageElementsInput';
-export { loginPageAfterSubmitEmailElements } from '../pagesData/loginPageData/loginPageElementsInput';
-export { loginPageElementsClick } from '../pagesData/loginPageData/loginPageElementsClick';
+export { loginPageBeforeSubmitEmailElements } from '../pagesElements/loginPage/loginPageElementsInput';
+export { loginPageAfterSubmitEmailElements } from '../pagesElements/loginPage/loginPageElementsInput';
+export { loginPageElementsClick } from '../pagesElements/loginPage/loginPageElementsClick';
 
 //SideBarPage
 export { SidebarPage } from '../pages/sidebarPage';
-export { sideBarElements } from '../pagesData/sideBarData/sideBarElements';
+export { sidebarElements } from '../pagesElements/sidebar/sidebarElements';
 
 //TicketStatusPage
 export { TicketStatusPage } from '../pages/Dashboard/ticketStatusPage';
-export { dashboardTicketStatusElements } from '../pagesData/dashboard/dashboardTicketStatusElements'
+export { dashboardTicketStatusElements } from '../pagesElements/dashboard/dashboardTicketStatusElements'

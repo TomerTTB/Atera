@@ -17,18 +17,18 @@ export class ElementBuilder {
                     currentElement = page.getByRole(params.role, { name: params.text });
                     break;
                 case 'getByPlaceholder':
-                    currentElement = page.getByPlaceholder(params.text || '');
+                    currentElement = page.getByPlaceholder(<string>params.text);
                     break;
                 case 'getByLabel':
-                    currentElement = page.getByLabel(params.text || '', {
+                    currentElement = page.getByLabel(<string>params.text, {
                         exact: params.exact ?? false,
                     });
                     break;
                 case 'getById':
-                    currentElement = page.locator(params.id || '');
+                    currentElement = page.locator(<string>params.id);
                     break;
                 case 'getByLocator':
-                    currentElement = page.locator(params.locator || '');
+                    currentElement = page.locator(<string>params.locator);
                     break;
             }
             if (currentElement) {
@@ -38,28 +38,3 @@ export class ElementBuilder {
         return myElements;
     };
 };
-
-// import { Page, Locator } from '@playwright/test';
-
-// export class ElementBuilder {
-//     static buildElements(page: Page, elements: { role?: string; name?: string; text?: string; id?: string; exact?: boolean }[]): Locator[] {
-//         const myElements: Locator[] = [];
-
-//         for (const element of elements) {
-//             let currentElement: Locator | null = null;
-
-//             if (element.role && element.name) {
-//                 currentElement = page.getByRole(element.role, { name: element.name });
-//             } else if (element.text) {
-//                 currentElement = page.getByText(element.text, element.exact ? { exact: true } : {});
-//             } else if (element.id) {
-//                 currentElement = page.locator(`#${element.id}`);
-//             }
-
-//             if (currentElement) {
-//                 myElements.push(currentElement);
-//             }
-//         }
-//         return myElements;
-//     }
-// }

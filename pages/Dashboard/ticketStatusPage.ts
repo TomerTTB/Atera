@@ -16,8 +16,7 @@ export class TicketStatusPage extends PageBase {
 
     //Methods
     async validateStatus() {
-        console.log('statusValidator');
-        await StatusValidator.findElements(this.dashboardStatusElements, testConfig);
+        await StatusValidator.findElementsByStatus(this.dashboardStatusElements, testConfig);
     };
 };
 // 3 Open

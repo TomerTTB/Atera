@@ -17,13 +17,14 @@ export class LoginPage extends PageBase {
 
     //Methods
     async login() {
-        console.log(process.env);
-        console.log(<string>process.env.URL);
         this.page.goto(<string>process.env.URL);
         await this.page.waitForURL(/^https:\/\/auth\.atera\.com\/.*/);
-        await LoginHandler.performLogin(this.page, this.loginInputElementsBeforeEmail, process.env.EMAIL);
-        await LoginHandler.performLogin(this.page, this.loginInputElementsAfterEmail, process.env.PASSWORD);
+        await LoginHandler.enterCredentialsAndSubmit(this.page, this.loginInputElementsBeforeEmail, process.env.EMAIL);
+        await LoginHandler.enterCredentialsAndSubmit(this.page, this.loginInputElementsAfterEmail, process.env.PASSWORD);
         await expect(this.page.getByRole('heading', { name: 'Devices' })).toBeVisible();
+    }
+
+    async storageState() {
         await this.page.context().storageState({ path: process.env.LOGINSTATEPATH });
     }
 };

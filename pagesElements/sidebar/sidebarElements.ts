@@ -1,4 +1,4 @@
-export const sideBarElements = [
+export const sidebarElements = [
     {
         functionType: 'getById',
         id: '#menu-item-1'
