@@ -98,19 +98,24 @@ The baseTest is extended with custom fixtures, which are instances of the pages.
 
 <br>
 
-**Authentication state**
+**Authentication state:**
 Playwright provides a storage method that can be used to retrieve the storage state from an authenticated context and then create new contexts with that state.
 
-**auth folder:** The project implements reusing of the authentication state, the authentication details are saved after a successful login and stored under this folder.
+<br>
+
+**auth folder:**
+The project implements reusing of the authentication state, the authentication details are saved after a successful login and stored under this folder.
 All the tests in the project can now navigate directly to the UI endpoints without the need to pass through the login page.
 
 <br>
 
-**tests folder:** The run spec (test) files are located under the tests folder.
+**tests folder:**
+The run spec (test) files are located under the tests folder.
 
 <br>
 
-**pages folder:** Each page is represented as a page object model design pattern, facilitating better organization and maintenance.
+**pages folder:**
+Each page is represented as a page object model design pattern, facilitating better organization and maintenance.
 
 <br>
 
