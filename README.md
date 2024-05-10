@@ -8,11 +8,15 @@ The project involves setting up an automation infrastructure foundation. This in
 Login: Automating the login process to the application.
 Navigation: Creating test scripts to navigate through different pages or sections of the application.
 Assertion: Writing assertions to verify statuses.
+
 <br> 
+
 **GitHub Actions:**
 The project holds a yml file and supports remote running using GitHub Actions.
 A customer with no dev environment can run the tests.
+
 <br> 
+
 **Project Installation (JS/TS):**
 To install the necessary dependencies, run the following commands:
 Node.js:
@@ -31,6 +35,7 @@ Dotenv setup is necessary:
 ```bash
 $env:ENV="test"
 ```
+
 <br> 
 
 **Project Structure:**
@@ -52,7 +57,9 @@ Run all tests using all browsers (Controlled under playwright.config)
 
 Run all tests using all browsers with headed browser 
 ```bash npx playwright test tests --headed```
+
 <br> 
+
 **Test reporter and trace:**
 HTML reporter will automatically open if the test fails.
 To launch the reporter manually or for a successful run:
