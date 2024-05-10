@@ -1,4 +1,4 @@
-import { test } from '../../fixtures/page-fixtures';
+nvimport { test } from '../../fixtures/page-fixtures';
 import fs from 'fs';
 const testConfig = require('../../config/testConfig.json')
 
@@ -7,7 +7,7 @@ test.describe('Assert open tickets', () => {
     test.slow();
     
     console.log('I am here');
-    console.log(process.env.LOGINSTATEPATH);
+    console.log(process.env.ENV);
     
     const fileStats = fs.statSync(<string>process.env.LOGINSTATEPATH);
     if (fileStats.size < 100) {
