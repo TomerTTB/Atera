@@ -1,4 +1,4 @@
-< br / > 
+<br> 
 **Project Definition:**
 This work assignment was given during an interview, to develop a program for automated end-to-end testing.
 
