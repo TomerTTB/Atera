@@ -1,4 +1,4 @@
-import { Locator, expect, type Page } from '@playwright/test';
+import { Locator, type Page } from '@playwright/test';
 
 export class ElementClicker {
     static async clickElement(page: Page, elements: Locator[]) {
