@@ -108,6 +108,7 @@ The project Trace is on and will log for success and fail runs.
 **Project Structure:**
 
 **TestConfig:**
+
 The testConfig file under the config folder is the only endpoint to be used by the user.
 1) Menu navigation by populating name/value
 2) Ticket status can add 1 or more statuses and a number to be assessed.
@@ -115,6 +116,7 @@ The testConfig file under the config folder is the only endpoint to be used by t
 <br>
 
 **Fixtures and bateTest:**
+
 This folder contains fixture setups using the test.extend function. Fixtures provide reusable setups and are used to establish the environment for each test, giving the test everything it needs and nothing else. Test fixtures are isolated between tests.
 
 <br>
@@ -124,6 +126,7 @@ The baseTest is extended with custom fixtures, which are instances of the pages.
 <br>
 
 **Authentication state and auth folder:**
+
 Playwright provides a storage method that can be used to retrieve the storage state from an authenticated context and then create new contexts with that state.
 This means that after a successful login, the authentication details are saved and stored in 'loginAuth.json' under the auth folder.
 <br>
@@ -132,22 +135,26 @@ Once saved the tests in the project can now navigate directly to the UI endpoint
 <br>
 
 **auth folder:**
+
 The project implements reusing of the authentication state, the authentication details are saved after a successful login and stored under this folder.
 All the tests in the project can now navigate directly to the UI endpoints without the need to pass through the login page.
 
 <br>
 
 **tests folder:**
+
 The run spec (test) files are located under the tests folder.
 
 <br>
 
 **pages folder:**
+
 Each page is represented as a page object model design pattern, facilitating better organization and maintenance.
 
 <br>
 
 **classes folder:** 
+
 1) pageBase: Creates the basic page playwright object, all pom classes will extend this base class.
 2) elementBuilder: Builds an array from the page elements for verification.
    The 'elementBuilder' purpose is to be a generic array builder that can take any amount of elements from the same kind for example, all the input text elements, or all text elements, and
