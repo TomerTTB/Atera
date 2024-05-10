@@ -38,7 +38,6 @@ $env:ENV="test"
 
 <br> 
 
-**Project Structure:**
 
 **Environment control:**
 The project environment control is a dotenv based, to change an environment use:
@@ -46,7 +45,9 @@ The project environment control is a dotenv based, to change an environment use:
 ```bash$env:ENV="test"```
 Change "test" to the needed environment.
 * The .env file holds general environmental variables.
+
 <br> 
+
 **Running Tests:**
 The project is set with a script to run all spec files using Chrome browser.
 ```bash npm run test_chrome``` 
@@ -66,7 +67,11 @@ To launch the reporter manually or for a successful run:
 ```npx playwright show-report```
 
 The project Trace is on and will log for success and fail runs.
+
 <br> 
+  
+**Project Structure:**
+
 
 
 
