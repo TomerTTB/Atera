@@ -96,7 +96,7 @@ The project Trace is on and will log for success and fail runs.
   
 **Project Structure:**
 
-**TestConfig**
+**TestConfig:**
 The testConfig file under config folder is the only endpoint to be used by the user.
 1) Menu navigation by populating name/value
 2) Ticket status can add 1 or more statuses and a number to be assessed.
