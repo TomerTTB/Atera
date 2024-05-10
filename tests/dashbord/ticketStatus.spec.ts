@@ -1,4 +1,4 @@
-nvimport { test } from '../../fixtures/page-fixtures';
+import { test } from '../../fixtures/page-fixtures';
 import fs from 'fs';
 const testConfig = require('../../config/testConfig.json')
 
