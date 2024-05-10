@@ -19,7 +19,7 @@ jobs:
     - name: Install dependencies
       run: npm ci
     - name: Print env
-      run: echo "Env $ENV PASSWORD $PASSWORD"
+      run: echo "Env $ENV"
     - name: npm Install dependencies
       run: npm install
     - name: Install Playwright Browsers
