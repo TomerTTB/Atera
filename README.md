@@ -20,7 +20,6 @@ A customer with no dev environment can run the tests.
 **Project Installation (JS/TS):**
 To install the necessary dependencies, run the following commands:
 
-<br>
 Download and install node.js
 
 Node.js:
