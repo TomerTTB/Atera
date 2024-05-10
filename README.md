@@ -1,20 +1,16 @@
-<br> 
 **Project Definition:**
 This work assignment was given during an interview, to develop a program for automated end-to-end testing.
-
-
+<br> 
 **Project Scope:**
 The project involves setting up an automation infrastructure foundation. This includes tests to perform the following actions:
 Login: Automating the login process to the application.
 Navigation: Creating test scripts to navigate through different pages or sections of the application.
 Assertion: Writing assertions to verify statuses.
-
-
+<br> 
 **GitHub Actions:**
 The project holds a yml file and supports remote running using GitHub Actions.
 A customer with no dev environment can run the tests.
-
-
+<br> 
 **Project Installation (JS/TS):**
 To install the necessary dependencies, run the following commands:
 Node.js:
@@ -33,6 +29,7 @@ Dotenv setup is necessary:
 ```bash
 $env:ENV="test"
 ```
+<br> 
 
 **Project Structure:**
 
@@ -42,8 +39,7 @@ The project environment control is a dotenv based, to change an environment use:
 ```bash$env:ENV="test"```
 Change "test" to the needed environment.
 * The .env file holds general environmental variables.
-
-
+<br> 
 **Running Tests:**
 The project is set with a script to run all spec files using Chrome browser.
 ```bash npm run test_chrome``` 
@@ -54,16 +50,14 @@ Run all tests using all browsers (Controlled under playwright.config)
 
 Run all tests using all browsers with headed browser 
 ```bash npx playwright test tests --headed```
-
-
+<br> 
 **Test reporter and trace:**
 HTML reporter will automatically open if the test fails.
 To launch the reporter manually or for a successful run:
 ```npx playwright show-report```
 
 The project Trace is on and will log for success and fail runs.
-
-
+<br> 
 
 
 
