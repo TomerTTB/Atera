@@ -1,15 +1,18 @@
 **Project Definition:**
 This work assignment was given during an interview, to develop a program for automated end-to-end testing.
 
+
 **Project Scope:**
 The project involves setting up an automation infrastructure foundation. This includes tests to perform the following actions:
 Login: Automating the login process to the application.
 Navigation: Creating test scripts to navigate through different pages or sections of the application.
 Assertion: Writing assertions to verify statuses.
 
-**GitHub Actions**
+
+**GitHub Actions:**
 The project holds a yml file and supports remote running using GitHub Actions.
 A customer with no dev environment can run the tests.
+
 
 **Project Installation (JS/TS):**
 To install the necessary dependencies, run the following commands:
