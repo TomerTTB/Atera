@@ -8,6 +8,10 @@ test.describe('Assert open tickets', () => {
     
     console.log('I am here');
     console.log(process.env.ENV);
+    console.log(process.env.URL);
+    console.log(process.env.EMAIL);
+    console.log(process.env.PASSWORD);
+    console.log(process.env.LOGINSTATEPATH);
     
     const fileStats = fs.statSync(<string>process.env.LOGINSTATEPATH);
     if (fileStats.size < 100) {
