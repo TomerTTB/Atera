@@ -1,13 +1,13 @@
-##Project Definition:
+**Project Definition:**
 This work assignment was given during an interview, to develop a program for automated end-to-end testing.
 
-##Project Scope:
+**Project Scope:**
 The project involves setting up an automation infrastructure foundation. This includes tests to perform the following actions:
 Login: Automating the login process to the application.
 Navigation: Creating test scripts to navigate through different pages or sections of the application.
 Assertion: Writing assertions to verify statuses.
 
-##Project Installation (JS/TS):
+**Project Installation (JS/TS):**
 To install the necessary dependencies, run the following commands:
 Node.js:
 ```bash
@@ -17,36 +17,38 @@ Playwright:
 ```bash
 npm install playwright
 ```
-
 Dotenv:
 ```bash
 npm install dotenv --save
 ```
-
 Dotenv setup is necessary:
 ```bash
 $env:ENV="test"
 ```
 
+**Project Structure:**
+
+**Environment control:**
+The project environment control is a dotenv based, to change an environment use:
+```bash$env:ENV="test"```
+Change "test" to the needed environment.
+* The .env file holds general environmental variables.
+
+**Running Tests:**
+The project is set with a script to run all spec files using Chrome browser.
+```bash npm run test_chrome``` 
+
+Other running options:
+Run all tests using all browsers (Controlled under playwright.config)
+```bash npx playwright test tests```
 
 
 
 
 
 
-Running Tests:
-To execute tests, use the following command: npx playwright tests "Spec Name under tests folder"
 
-Running Tests using predifined scripts:
-To run all tests on all browsers: npm run tests_allBrowsers
 
-Project Structure:
-
-Enviorments control:
-The project enviorment control is a dotenv based, to change an envriments use:
-Example - $env:ENV="test" / Change the test to needed enviorment.
-
-The .env file holds general enviorment varibles 
 
 Fixtures Folder: This folder contains fixture setups using the test.extend function. Fixtures provide reusable setups that offer test contexts or resources.
 
