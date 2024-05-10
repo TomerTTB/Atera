@@ -157,7 +157,22 @@ Each page is represented as a page object model design pattern, facilitating bet
 <br>
 
 **Security and CI:**
-1) It's a best practice to add your '.env' files to the git ignore list, in the case of this project '.env.test' has been added yet it does not contain the password.
+1) It's a best practice to add the '.env' files to the git ignore list, in the case of this project '.env.test' has been added, yet it does not contain the password.
 2) When run on CI, it uses a separate .env file '.env.ci', this file also does not contain the password, and the password for the CI is stored under environment secret variables.
 3) After login the 'loginAuth.json' file contains cookies and the JWT, on CI the file will always stay empty (only with {} to indicate a json file). locally the file will keep the date after the first run.
+
+<br>
+
+**What was difficult / What I would change / notes**
+There were a few points that were more difficult to overcome:
+1) Navigation to the login page, before the 302 redirect, the playwright finds an element on the page, that causes the test to stop at this point with a blank screen.
+   I had to remove 'await' and keep it alive until validation of a new URL endpoint.
+2) Saving the storage state, I had to use the network monitor to know when I was receiving the JWT and relevant cookies.
+3) I originally designed the login as a POM that extended as a fixture, now I think it was a mistake, that created an issue as fixtures can not run from within the 'global-setup' or the hooks. For my next project, I would research ways to design the login, I want it to be as a separate module from the loginPage.
+Note - Fixtures can run from the 'global-setup' or the hooks, but it requires controlling the context manually and it seems like something that I don't want or need to do.
+
+As I tried to place myself in a role of infrastructure, I found out it can be a bottomless pit :), there is no end to how many more capabilities you can add.
+I think it's super important to collect the correct requirements from the customers and translate them to actionable tasks only what's necessary.
+All in all, it was a nice project to work on, I pushed myself hard on it, and it should accurately reflect where I am in terms of hands-on coding experience. 
+   
    
