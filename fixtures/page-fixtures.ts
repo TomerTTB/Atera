@@ -1,13 +1,13 @@
 import { test as baseTest } from '@playwright/test';
-import { LoginPage, SidebarPage, TicketStatusPage, Hooks } from '../utils/imports.ts';
+import { LoginPage, SidebarPage, TicketStatusPage } from '../utils/imports.ts';
 
-type MyFixtures = {
+type Fixtures = {
     loginPage: LoginPage;
     sidebarPage: SidebarPage;
     ticketStatusPage: TicketStatusPage;
 }
 
-export const test = baseTest.extend<MyFixtures>({
+export const test = baseTest.extend<Fixtures>({
     loginPage: async ({ page }, use) => {
         await use(new LoginPage(page));
     },
