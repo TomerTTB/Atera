@@ -89,7 +89,6 @@ The testConfig file under config folder is the only endpoint to be used by the u
 
 <br>
 
-
 **Fixtures and bateTest:**
 This folder contains fixture setups using the test.extend function. Fixtures provide reusable setups and are used to establish the environment for each test, giving the test everything it needs and nothing else. Test fixtures are isolated between tests.
 
@@ -107,15 +106,14 @@ All the tests in the project can now navigate directly to the UI endpoints witho
 
 <br>
 
-**Tests Folder:** The run spec (test) files are located under the tests folder.
+**tests folder:** The run spec (test) files are located under the tests folder.
 
 <br>
 
+**pages folder:** Each page is represented as a page object model design pattern, facilitating better organization and maintenance.
 
-Pages Folder: Each page is represented as a page object model, facilitating better organization and maintenance.
+<br>
 
-Classes Folder: PageBase: Creates the basic page playwright object to be used by most classes. TextElementBuilder: Builds an array from the page elements for verification. TextVerifier: Provides functions for text verification, usable by any page requiring text validation.
-
-Utils Folder: uiPages: Dynamically builds the URL for a test, enhancing flexibility and maintainability.
-
-
+**classes Folder:** 
+1) PageBase: Creates the basic page playwright object to be used by most classes.
+2) TextElementBuilder: Builds an array from the page elements for verification.
