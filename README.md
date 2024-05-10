@@ -136,6 +136,9 @@ Each page is represented as a page object model design pattern, facilitating bet
 
 <br>
 
-**classes Folder:** 
-1) PageBase: Creates the basic page playwright object to be used by most classes.
-2) TextElementBuilder: Builds an array from the page elements for verification.
+**classes folder:** 
+1) pageBase: Creates the basic page playwright object to be used by most classes.
+2) elementBuilder: Builds an array from the page elements for verification.
+   The 'elementBuilder' purpose is to be a generic array builder that can take any amount of elements from the same kind for example, all the input text elements, or all text elements, and
+   make them ready to be used within the POM's.
+   
