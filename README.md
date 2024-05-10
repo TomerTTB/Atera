@@ -42,7 +42,9 @@ $env:ENV="test"
 **Environment control:**
 The project environment control is a dotenv based, to change an environment use:
 
-```bash$env:ENV="test"```
+```bash
+$env:ENV="test"
+```
 
 Change "test" to the needed environment.
 * The .env file holds general environmental variables.
@@ -52,29 +54,41 @@ Change "test" to the needed environment.
 **Running Tests:**
 The project is set with a script to run all spec files using Chrome browser.
 
-```bash npm run test_chrome``` 
+```bash 
+npm run test_chrome
+``` 
 
 Other running options:
 Run all tests using all browsers (Controlled under playwright.config)
 
-```bash npx playwright test tests```
+```bash 
+npx playwright test tests
+```
 
 Run all tests using all browsers with headed browser:
 
-```bash npx playwright test tests --headed```
+```bash
+npx playwright test tests --headed
+```
 
 Use Debug mode:
-```bash--debug```
+```bash
+--debug
+```
 
 Use Interactive ui mode:
-```bash--ui```
+```bash
+--ui
+```
 
 <br> 
 
 **Test reporter and trace:**
 HTML reporter will automatically open if the test fails.
 To launch the reporter manually or for a successful run:
-```npx playwright show-report```
+```bash
+npx playwright show-report
+```
 
 The project Trace is on and will log for success and fail runs.
 
