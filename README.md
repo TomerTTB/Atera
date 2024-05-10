@@ -169,7 +169,8 @@ There were a few points that were more difficult to overcome:
 1) Navigation to the login page, before the 302 redirect, the playwright finds an element on the page, that causes the test to stop at this point with a blank screen.
    I had to remove 'await' and keep it alive until validation of a new URL endpoint.
 2) Saving the storage state, I had to use the network monitor to know when I was receiving the JWT and relevant cookies.
-3) I originally designed the login as a POM that extended as a fixture, now I think it was a mistake, that created an issue as fixtures can not run from within the 'global-setup' or the hooks. For my next project, I would research ways to design the login, I want it to be as a separate module from the loginPage.
+3) I originally designed the login as a POM that extended as a fixture, now I think it was a mistake, that created an issue as fixtures can not run from within the 'global-setup' or the hooks. For my next project, I would research ways to design the login, as I want it to be a separate module from the loginPage.
+   
 Note - Fixtures can run from the 'global-setup' or the hooks, but it requires controlling the context manually and it seems like something that I don't want or need to do.
 
 As I tried to place myself in a role of infrastructure, I found out it can be a bottomless pit :), there is no end to how many more capabilities you can add.
