@@ -115,6 +115,12 @@ The testConfig file under the config folder is the only endpoint to be used by t
 
 <br>
 
+**Assert:**
+The application contains one assert as the number of ticket statuses, as it's the last (and only) assert It's a hard assert, meaning the test will fail and stop and the trace will collect the data.
+This type of assert when in the middle of a run can be configured as soft assert meaning the test will fail but it won't stop and the trace will collect the data.
+
+<br>
+
 **Fixtures and bateTest:**
 
 This folder contains fixture setups using the test.extend function. Fixtures provide reusable setups and are used to establish the environment for each test, giving the test everything it needs and nothing else. Test fixtures are isolated between tests.
