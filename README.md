@@ -51,6 +51,17 @@ Change "test" to the needed environment.
 
 <br> 
 
+**Password encapsulation**
+"MY" password should be added locally, it can be done in two different ways:
+1) Add it manually to the '.env.test' under env folder.
+2) Use command line:
+
+```bash
+$env:PASSWORD="MYPASSWORD"
+```
+
+<br>
+
 **Running Tests:**
 The project is set with a script to run all spec files using Chrome browser.
 
