@@ -11,7 +11,7 @@ test.describe('Assert open tickets', () => {
       await loginPage.login();
       await loginPage.storageState();
     }
-
+    console.log(process.env.LOGINSTATEPATH);
     await sidebarPage.navigateToMenuItem(testConfig);
     await ticketStatusPage.validateStatus();
   });
