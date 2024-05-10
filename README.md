@@ -87,26 +87,30 @@ The testConfig file under config folder is the only endpoint to be used by the u
 1) Menu navigation by populating name/value
 2) Ticket status can add 1 or more statuses and a number to be assessed.
 
+<br>
 
 
+**Fixtures and bateTest:**
+This folder contains fixture setups using the test.extend function. Fixtures provide reusable setups and are used to establish the environment for each test, giving the test everything it needs and nothing else. Test fixtures are isolated between tests.
 
-
-
-
-
-
-
-
-
-
-Fixtures Folder: This folder contains fixture setups using the test.extend function. Fixtures provide reusable setups that offer test contexts or resources.
+<br>
 
 The baseTest is extended with custom fixtures, which are instances of the pages. Fixture setup functions are asynchronous and create instances of respective page classes, passing a page object to them. The use function is utilized to define what will be passed to the test after the fixture setup completes, enabling access to the page class instance.
 
-auth folder: The project implements reusing of authentication state, in context and gloabl level (Currntly remarked) the authentication detials saved after a succesful login and stored under this folder.
-This method allow us to save time, reduce flakenes, reduce server volume.
+<br>
 
-Tests Folder: Contains separate test (spec) files for each page object on the website.
+**Authentication state**
+Playwright provides a storage method that can be used to retrieve the storage state from an authenticated context and then create new contexts with that state.
+
+**auth folder:** The project implements reusing of the authentication state, the authentication details are saved after a successful login and stored under this folder.
+All the tests in the project can now navigate directly to the UI endpoints without the need to pass through the login page.
+
+<br>
+
+**Tests Folder:** The run spec (test) files are located under the tests folder.
+
+<br>
+
 
 Pages Folder: Each page is represented as a page object model, facilitating better organization and maintenance.
 
