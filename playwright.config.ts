@@ -7,7 +7,7 @@ import dotenv from "dotenv";
  */
 // require('dotenv').config();
 dotenv.config({
-  path: `./env/.env.${process.env.ENV}`
+  path: `./env/.env.${process.env.test}`
 });
 /**
  * See https://playwright.dev/docs/test-configuration.
