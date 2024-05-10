@@ -1,17 +1,32 @@
-Project Definition: This is a work assignment given during an interview, to develop a program for automated end-to-end testing.
+##Project Definition:
+This work assignment was given during an interview, to develop a program for automated end-to-end testing.
 
-Project Scope: The project involves setting up an automation infrastructure foundation. This includes tests to perform the following actions:
+##Project Scope:
+The project involves setting up an automation infrastructure foundation. This includes tests to perform the following actions:
 Login: Automating the login process to the application.
 Navigation: Creating test scripts to navigate through different pages or sections of the application.
 Assertion: Writing assertions to verify statuses.
 
-Project Installation (JS/TS):
-Node.js: https://nodejs.org
-Playwright: npm install playwright
-Dotenv: npm install dotenv --save
+##Project Installation (JS/TS):
+To install the necessary dependencies, run the following commands:
+Node.js:
+```bash
+https://nodejs.org
+```
+Playwright:
+```bash
+npm install playwright
+```
 
-Dotenv setup is necessary: $env:ENV="test"
+Dotenv:
+```bash
+npm install dotenv --save
+```
 
+Dotenv setup is necessary:
+```bash
+$env:ENV="test"
+```
 
 
 
