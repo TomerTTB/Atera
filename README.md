@@ -108,7 +108,7 @@ The project Trace is on and will log for success and fail runs.
 **Project Structure:**
 
 **TestConfig:**
-The testConfig file under config folder is the only endpoint to be used by the user.
+The testConfig file under the config folder is the only endpoint to be used by the user.
 1) Menu navigation by populating name/value
 2) Ticket status can add 1 or more statuses and a number to be assessed.
 
@@ -152,5 +152,12 @@ Each page is represented as a page object model design pattern, facilitating bet
 2) elementBuilder: Builds an array from the page elements for verification.
    The 'elementBuilder' purpose is to be a generic array builder that can take any amount of elements from the same kind for example, all the input text elements, or all text elements, and
    make them ready to be used within the pom.
-3) In general the classes such as 'elementCliker' should be designed to be as generic as possible so they can be used by all pom.
+3) In general, classes such as 'elementClicker' should be designed to be as generic as possible so they can be used by all pom.
+
+<br>
+
+**Security and CI:**
+1) It's a best practice to add your '.env' files to the git ignore list, in the case of this project '.env.test' has been added yet it does not contain the password.
+2) When run on CI, it uses a separate .env file '.env.ci', this file also does not contain the password, and the password for the CI is stored under environment secret variables.
+3) After login the 'loginAuth.json' file contains cookies and the JWT, on CI the file will always stay empty (only with {} to indicate a json file). locally the file will keep the date after the first run.
    
