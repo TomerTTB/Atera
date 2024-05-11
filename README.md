@@ -13,7 +13,8 @@ Assertion: Writing assertions to verify statuses.
 
 **GitHub Actions:**
 The project holds a '.yml' file and supports remote running using GitHub Actions.
-A customer with no dev environment can run the tests.
+A customer with no dev environment can run the tests using Actions --> Playwright Tests.
+A Playwright report is generated under Artifacts.
 
 <br> 
 
