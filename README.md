@@ -34,10 +34,6 @@ Dotenv:
 ```bash
 npm install dotenv --save
 ```
-Dotenv setup is necessary:
-```bash
-$env:ENV="test"
-```
 
 <br> 
 
