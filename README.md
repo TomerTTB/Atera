@@ -109,8 +109,35 @@ The project Trace is on and will log for success and fail runs.
 **TestConfig:**
 
 The testConfig file under the config folder is the only endpoint to be used by the user.
-1) Menu navigation by populating name/value
+1) Menu navigation by name and value, change these values to select other sidebar elements.
+
+```bash
+    "menuNavigation": [
+        {
+            "name": "dashboard",
+            "value": "#menu-item-1"
+        }
+```
+
 2) Ticket status can add 1 or more statuses and a number to be assessed.
+Can be modified to support other similar areas such as alert status.
+
+```bash
+"status": [
+        {
+            "name": "ticketStatus",
+            "asserts": [
+                {
+                    "name": "Open",
+                    "value": "3"
+                },
+                {
+                    "name": "Pending",
+                    "value": "0"
+                }
+            ]
+        }
+```
 
 <br>
 
