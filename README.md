@@ -2,8 +2,6 @@
 As part of an interview process, this work assignment was given to develop a program for automated end-to-end testing.
 
 <br>
-
-**Project Scope:**
 The project involves setting up an automation infrastructure foundation. This includes tests to perform the following actions:
 <br>
 **Login:** Automating the login process to the application.
@@ -211,11 +209,11 @@ Each page is represented as a page object model design pattern, facilitating bet
 
 There were a few points that were more difficult to overcome:
 
-1) Navigation to the login page before the 302 redirect. The playwright finds an element on the page, which causes the test to stop at this point with a blank screen. I had to remove 'await' and keep it alive until validation of a new URL endpoint.
-2) Saving the storage state. I had to use the network monitor to know when I was receiving the JWT and relevant cookies.
-3) I originally designed the login as a Page Object Model (POM) that extended as a fixture. Now, I think it was a mistake that created an issue, as fixtures cannot run from within the 'global-setup' or the hooks. For my next project, I would research ways to design the login, as I want it to be a separate module from the loginPage.
+1) Navigation to the login page before the 302 redirect. Playwright finds an element on the page, causing the test to stop at this point with a blank screen. I had to remove 'await' and keep it active until the new URL endpoint was validated.
+2) Saving the storage state. I had to use the network monitor to identify when I was receiving the JWT and relevant cookies.
+3) Initially, I designed the login as a POM that extended as a fixture. I now realize this was a mistake because fixtures cannot run from within 'global-setup' or hooks. For my next project, I will research ways to design the login as a separate module from the loginPage.
 
 Note - Fixtures can run from the 'global-setup' or the hooks, but it requires controlling the context manually, and it seems like something that I don't want or need to do.
 
-As I tried to place myself in the role of infrastructure, I found out it can be a bottomless pit :), there is no end to how many more capabilities you can add.
-I think it's super important to collect the correct requirements from the customers and translate them into actionable tasks for only what's necessary. All in all, it was a nice project to work on. I pushed myself hard on it, and it should accurately reflect where I am in terms of hands-on coding experience.
+As I tried to place myself in the role of infrastructure, I found out it can be a bottomless pit :), there's no limit to the capabilities you can add.
+I think it's crucial to gather accurate requirements from customers and translate them into actionable tasks, focusing only on what's necessary. Overall in all, it was a nice project to work on. I pushed myself hard on it, and it should accurately reflect my current hands-on coding experience.
