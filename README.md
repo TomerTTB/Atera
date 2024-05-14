@@ -1,13 +1,18 @@
 **Project Definition:**
 As part of an interview process, this work assignment was given to develop a program for automated end-to-end testing.
-
 <br>
 The project involves setting up an automation infrastructure foundation. This includes tests to perform the following actions:
+
 <br>
+
 **Login:** Automating the login process to the application.
+
 <br>
+
 **Navigation:** Creating test scripts to navigate through different pages or sections of the application.
+
 <br>
+
 **Assertion:** Writing assertions to verify statuses.
 
 <br> 
