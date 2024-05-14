@@ -14,7 +14,7 @@ The project involves setting up an automation infrastructure foundation. This in
 <br> 
 
 **GitHub Actions:**
-The project holds a '.yml' file and supports remote running using GitHub Actions.
+The project contains a '.yml' file and supports remote running using GitHub Actions.
 A customer with no dev environment can run the tests using Actions --> Playwright Tests.
 A Playwright report is generated under Artifacts.
 
