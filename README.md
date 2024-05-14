@@ -1,13 +1,16 @@
 **Project Definition:**
-This work assignment was given during an interview, to develop a program for automated end-to-end testing.
+As part of an interview process, this work assignment was given to develop a program for automated end-to-end testing.
 
 <br>
 
 **Project Scope:**
 The project involves setting up an automation infrastructure foundation. This includes tests to perform the following actions:
-Login: Automating the login process to the application.
-Navigation: Creating test scripts to navigate through different pages or sections of the application.
-Assertion: Writing assertions to verify statuses.
+<br>
+**Login:** Automating the login process to the application.
+<br>
+**Navigation:** Creating test scripts to navigate through different pages or sections of the application.
+<br>
+**Assertion:** Writing assertions to verify statuses.
 
 <br> 
 
@@ -120,8 +123,8 @@ The testConfig file under the config folder is the only endpoint to be used by t
         }
 ```
 
-2) Ticket status can add 1 or more statuses and a number to be assessed.
-Can be modified to support other similar areas such as alert status.
+2) Ticket status can add one or more statuses and a number to be asserted.
+    It can be modified to support other similar areas, such as alert status.
 
 ```bash
 "status": [
@@ -143,8 +146,9 @@ Can be modified to support other similar areas such as alert status.
 <br>
 
 **Assert:**
-The application contains one assert as the number of ticket statuses, as it's the last (and only) assert It's a hard assert, meaning the test will fail and stop and the trace will collect the data.
-This type of assert when in the middle of a run can be configured as soft assert meaning the test will fail but it won't stop and the trace will collect the data.
+The application contains one assertion regarding the number of ticket statuses. As it’s the last (and only) assertion, it is a hard assertion, meaning the test will fail and stop if it fails, and the trace will collect the data.
+
+During a run, this type of assertion can be configured as a soft assertion, meaning the test will fail but won't stop, and the trace will still collect the data.
 
 <br>
 
@@ -163,14 +167,13 @@ The baseTest is extended with custom fixtures, which are instances of the pages.
 Playwright provides a storage method that can be used to retrieve the storage state from an authenticated context and then create new contexts with that state.
 This means that after a successful login, the authentication details are saved and stored in 'loginAuth.json' under the auth folder.
 <br>
-Once saved the tests in the project can now navigate directly to the UI endpoints without the need to pass through the login page.
+Once saved, the tests in the project can now navigate directly to the UI endpoints without passing through the login page.
 
 <br>
 
 **auth folder:**
 
 The project implements reusing of the authentication state, the authentication details are saved after a successful login and stored under this folder.
-All the tests in the project can now navigate directly to the UI endpoints without the need to pass through the login page.
 
 <br>
 
@@ -192,7 +195,7 @@ Each page is represented as a page object model design pattern, facilitating bet
 2) elementBuilder: Builds an array from the page elements for verification.
    The 'elementBuilder' purpose is to be a generic array builder that can take any amount of elements from the same kind for example, all the input text elements, or all text elements, and
    make them ready to be used within the pom.
-3) In general, classes such as 'elementClicker' should be designed to be as generic as possible so they can be used by all pom.
+3) Generally, classes like 'elementClicker' should be designed to be as generic as possible, allowing them to be used by all POM (Page Object Model) classes.
 
 <br>
 
